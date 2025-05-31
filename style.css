@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.head {
+    display: flex;
+    flex-direction: column;
+ 
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 200px;
+}
+.login {
+   color:rgb(51, 42, 25);
+   font-family: 'Times New Roman', Times, serif;
+   
+}
+.number {
+    padding: 10px;
+    width: 250px;
+    height: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+.password {
+    padding: 10px;
+    width: 250px;
+    margin: 20px;
+    height: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+.submit {
+    border-radius: 10px;
+    width: 250px;
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+.star{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100vh;
+    align-items: center;
+    margin: auto;
+    color: aquamarine;
+    
+}
+.brand {
+    font-size: larger;
+
+}
+.header {
+    background-color: black;
+}
+.flex li {
+    list-style: none;
+    padding-left: 30px;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+.flex :hover {
+    color: orange;
+}
+.chk {
+    display: flex;
+    justify-content: space-between;
+}
+.checkmark {
+    margin-top: 2px;
+}
+.forgot:hover {
+    color: rgb(194, 56, 136);
+    animation: trasiton 1s;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: chocolate;
+    color: azure;
+}
+.number:hover {
+    background-color: chocolate;
+    
+}
+.password:hover {
+    background-color: chocolate;
+    
+}
